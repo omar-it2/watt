@@ -6,11 +6,10 @@ A new Flutter project.
 
 This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Task for google map
+1- use GETX for state management
+2- for log in use fack Api reqres https://reqres.in/api/login 
+with static user email: eve.holt@reqres.in password: cityslicka
+3- use map to select start position then go to next map to select end position then show map
+to see the way and distance and price and can see move position by press on button with 
+time to sta

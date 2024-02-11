@@ -3,6 +3,9 @@
         android:label="testforwatt"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
+        <meta-data android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDKET0erHag1uU5p4LVulYAsId8sgRWu-Y"/>
+
         <activity
             android:name=".MainActivity"
             android:exported="true"
@@ -30,4 +33,6 @@
             android:name="flutterEmbedding"
             android:value="2" />
     </application>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION"/>
 </manifest>
